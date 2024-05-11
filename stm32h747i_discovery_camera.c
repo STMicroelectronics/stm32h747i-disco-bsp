@@ -243,7 +243,7 @@ int32_t BSP_CAMERA_Init(uint32_t Instance, uint32_t Resolution, uint32_t PixelFo
       ret= OV9655_Probe(Resolution, PixelFormat);
 #endif
 #if (USE_CAMERA_SENSOR_OV5640 == 1)
-      if(ret != BSP_ERROR_NONE)
+      if(ret == BSP_ERROR_NONE)
       {
         ret = OV5640_Probe(Resolution, PixelFormat);
       }
