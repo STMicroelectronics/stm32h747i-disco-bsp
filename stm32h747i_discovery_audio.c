@@ -2072,7 +2072,7 @@ int32_t BSP_AUDIO_IN_Resume(uint32_t Instance)
 
 /**
   * @brief  Start audio recording.
-  * @param  Instance  AUDIO IN SAI PDM Instance. It can be only 2
+  * @param  Instance  AUDIO IN SAI PDM Instance. It can only be 1
   * @param  pBuf     Main buffer pointer for the recorded data storing
   * @param  NbrOfBytes  Size of the record buffer
   * @retval BSP status
