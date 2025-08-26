@@ -303,7 +303,7 @@ typedef struct
 
 /* Audio In instances number:
    Instance 0 is SAI path
-   Instance 2 is SAI PDM path
+   Instance 1 is SAI PDM path
  */
 #define AUDIO_IN_INSTANCES_NBR             2U
 /**
