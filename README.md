@@ -1,6 +1,6 @@
 # BSP STM32H747I-DICO Component
 
-![latest tag](https://img.shields.io/github/v/tag/STMicroelectronics/stm32h747i-disco.svg?color=brightgreen)
+![tag](https://img.shields.io/badge/tag-v3.6.4-brightgreen.svg)
 
 ## Overview
 
